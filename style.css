@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    font-family: "Happy Monkey", Arial, Helvetica, sans-serif;
+}
+
+#canvas {
+    border-left: #000 solid 0.125rem;
+    border-right: #000 solid 0.125rem;
+}
+
+#title {   
+    max-width: 24rem;
+    min-width: 15.625rem;
+    font-size: 2rem;
+    text-align: center;
+    background: transparent;
+    color: #000;
+    border-top: #000 solid 0.125rem;
+    border-bottom: #000 solid 0.125rem ;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+    
+#result {
+    height: 3rem;
+    max-width: 24rem;
+    min-width: 15.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: #000 solid 0.125rem;
+}
+
+#message {
+    max-width: 24rem;
+    min-width: 15.625rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: #000 solid 0.125rem;
+}
+
+#grid {
+    width:24rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.card {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 0.25rem;
+    border: #000 solid 0.125rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+#footer {
+    max-width: 24rem;
+    min-width: 15.625rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: transparent;
+    color: #000;
+    border-top: #000 solid 0.125rem;
+    border-bottom: #000 solid 0.125rem ;
+    font-weight: bold;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+#my-github {
+    color: #ff4444;
+    cursor: pointer;
+}
